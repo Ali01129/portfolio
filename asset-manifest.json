@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.27fd2846.css",
-    "main.js": "/portfolio/static/js/main.b7a46eb5.js",
+    "main.js": "/portfolio/static/js/main.9eed9ede.js",
     "static/media/ali-nawaz-cv.pdf": "/portfolio/static/media/ali-nawaz-cv.2dae96b84673faabc9b3.pdf",
     "static/media/Ali1.png": "/portfolio/static/media/Ali1.f14fe6a7d444d3fddc2c.png",
     "static/media/Ali2.jpg": "/portfolio/static/media/Ali2.ed420d9222dc919ca016.jpg",
     "index.html": "/portfolio/index.html",
     "main.27fd2846.css.map": "/portfolio/static/css/main.27fd2846.css.map",
-    "main.b7a46eb5.js.map": "/portfolio/static/js/main.b7a46eb5.js.map"
+    "main.9eed9ede.js.map": "/portfolio/static/js/main.9eed9ede.js.map"
   },
   "entrypoints": [
     "static/css/main.27fd2846.css",
-    "static/js/main.b7a46eb5.js"
+    "static/js/main.9eed9ede.js"
   ]
 }
