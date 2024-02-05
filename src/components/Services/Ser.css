@@ -1,0 +1,14 @@
+.services__icon {
+  color: var(--color-primary);
+  margin-top: 0.6rem;
+}
+.service {
+  display: flex;
+  flex-direction: column;
+}
+.des {
+  background-color: black;
+}
+p {
+  font-size: 2rem;
+}

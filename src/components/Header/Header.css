@@ -1,0 +1,104 @@
+header {
+  height: 100vh;
+  padding-top: 7rem;
+  overflow: hidden;
+}
+
+.header__container {
+  text-align: center;
+  height: 100%;
+  position: relative;
+}
+.header__container h5 {
+  font-size: 1.5rem;
+}
+
+.cta {
+  margin-top: 2.5rem;
+  display: flex;
+  gap: 1.2rem;
+  justify-content: center;
+}
+
+.header__socials {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: absolute;
+  left: 0;
+  gap: 0.8rem;
+  bottom: 5rem;
+}
+
+/*Tobe changed*/
+/* .header__socials a {
+  background: var(--color-primary);
+  color: var(--color-white);
+  width: 2rem;
+  height: 2rem;
+  border-radius: 50%;
+} */
+/*continue*/
+.header__socials::after {
+  content: "";
+  height: 2rem;
+  background: var(--color-primary);
+  width: 2px;
+}
+
+/*============= ME ============*/
+
+.me {
+  background: linear-gradient(var(--color-bg-variant), transparent);
+  width: 22rem;
+  height: 25rem;
+  margin-top: 50px;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  padding: 0;
+  border-radius: 12rem 12rem 0 0;
+  overflow: hidden;
+}
+
+.me img {
+  width: 14rem;
+  display: block; /* Add this line */
+  margin: 0 auto; /* Add this line for horizontal centering within the container */
+}
+
+
+/*========== Scroll down =========*/
+.scroll__down {
+  position: absolute;
+  right: -2.3rem;
+  bottom: 5rem;
+  transform: rotate(90deg);
+}
+
+/* =================MEDIA QUERIES (MEDIUM DEVIVES)============================*/
+@media screen and (max-width: 1024px) {
+  header {
+    height: 68vh;
+  }
+}
+/* =================MEDIA QUERIES (SMALL DEVIVES)============================*/
+@media screen and (max-width: 600px) {
+  header {
+    height: 100vh;
+    padding-top: 1rem;
+  }
+  .header__socials,
+  .scroll__down {
+    display: none;
+  }
+  .cta {
+    margin-top: 1rem;
+  }
+  .me {
+    margin-top: 1.2rem;
+  }
+  .header__container h1 {
+    font-size: 2.5rem;
+  }
+}
